@@ -1,12 +1,11 @@
 body{
     background-color: var(--orange-color);
-    width: 100vw;
 }
 
 header{
     position: relative;
     height: 50vh;
-    width: 100vw;
+    max-width: 100vw;
     
     .title{
         display: flex;
@@ -23,7 +22,7 @@ header{
     .logo{
         position:absolute;
         z-index: -1;
-        width: 100vw;
+        overflow: hidden;
     
         img{
             width: 100%;
@@ -34,7 +33,7 @@ header{
 
 }
 
-/* .btn{
+.btn{
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--yellow-color);
@@ -55,4 +54,4 @@ header{
     label{
         position: absolute;
     }
-} */
+}

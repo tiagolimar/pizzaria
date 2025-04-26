@@ -19,12 +19,20 @@
     box-sizing: border-box;
 }
 
-.inspect{
-    border: 3px solid blue;
+.inspect-blue{
+    border: 3px dashed blue;
+}
+
+.inspect-yellow{
+    border: 3px dashed yellow;
+}
+
+.inspect-green{
+    border: 3px dashed green;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
     color: #333;
-    width: 100%;
+    width: 100vw;
 }
