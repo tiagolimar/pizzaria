@@ -1,0 +1,9 @@
+@media (min-width: 536px) {
+    body{
+        display: flex;
+    }
+
+    header, main{
+        width: 50vw;
+    }
+}
